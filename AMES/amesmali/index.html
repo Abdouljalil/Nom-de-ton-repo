@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMES - Association Maliennne pour l'Équitée social</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/WhatsApp%20Image%202025-01-23%20at%2019.34.49.png"
+                    alt="Logo AMES" width="50" style="height: auto;">
+                <span>AMES</span>
+            </div>
+            <div class="nav-controls">
+                <select id="langSelect" class="lang-select">
+                    <option value="fr">Français</option>
+                    <option value="en">English</option>
+                </select>
+                <button id="themeToggle" class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" data-translate="nav.home">Accueil</a></li>
+                <li><a href="#about" data-translate="nav.about">À Propos</a></li>
+                <li><a href="#team" data-translate="nav.team">Équipe</a></li>
+                <li><a href="#activities" data-translate="nav.activities">Activités</a></li>
+                <li><a href="#partners" data-translate="nav.partners">Partenaires</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1 data-translate="hero.title">Association Maliennne pour l'Équitée social</h1>
+            <p data-translate="hero.subtitle">Ensemble pour un Mali plus équitable</p>
+            <a href="#about" class="cta-button" data-translate="hero.cta">En savoir plus</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-translate="about.title" data-aos="fade-up">À Propos de AMES</h2>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="about-text">
+                    <p data-translate="about.description">AMES est une association dédiée à la promotion de l'équité
+                        sociale au Mali. Notre mission est de créer un impact positif dans la société malienne en
+                        favorisant l'égalité des chances et la justice sociale.</p>
+                    <div class="stats">
+                        <div class="stat-item" data-aos="zoom-in">
+                            <h3>2025</h3>
+                            <p data-translate="about.stats.founded">Année de création</p>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                            <h3>100+</h3>
+                            <p data-translate="about.stats.beneficiaries">Bénéficiaires</p>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                            <h3>1+</h3>
+                            <p data-translate="about.stats.projects">Activités réalisées</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="vision" class="vision">
+        <div class="container">
+            <h2 data-translate="vision.title" data-aos="fade-up">Notre vision</h2>
+            <div class="vision-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="about-text">
+                    <p data-translate="vision.description">Les valeurs fondamentales d’AMES :</p>
+                    <ol class="vision-list">
+                        <li>
+                            <strong>Inclinaison :</strong>
+                            <span data-translate="vision.list.inclination">
+                                AMES fait de l’humilité et de l’empathie les piliers de son engagement. Nous prêtons une
+                                oreille attentive aux besoins et aspirations des communautés, en veillant à leur
+                                apporter des réponses adaptées et respectueuses. Cette approche humaine et sensible
+                                renforce notre lien de confiance avec les bénéficiaires, tout en garantissant des
+                                interventions ancrées dans leurs réalités.
+                            </span>
+                        </li>
+                        <li>
+                            <strong>Transparence :</strong>
+                            <span data-translate="vision.list.transparency">
+                                La transparence est au cœur des principes d’AMES. Nous nous engageons à communiquer
+                                ouvertement sur nos décisions, nos actions et la gestion des ressources mises à
+                                disposition. En adoptant une posture honnête et intègre, nous cultivons la confiance
+                                avec nos partenaires, bailleurs et communautés, tout en assurant une gestion éthique et
+                                responsable.
+                            </span>
+                        </li>
+                        <li>
+                            <strong>Responsabilisation :</strong>
+                            <span data-translate="vision.list.responsibility">
+                                AMES est convaincue que les communautés possèdent les ressources nécessaires pour
+                                prendre en main leur propre développement. En les impliquant activement dans chaque
+                                étape de nos projets, nous leur permettons de devenir autonomes et de mettre en place
+                                des solutions durables qui répondent réellement à leurs besoins.
+                            </span>
+                        </li>
+                        <li>
+                            <strong>Synergie d’action :</strong>
+                            <span data-translate="vision.list.synergy">
+                                AMES valorise le pouvoir de la collaboration. En réunissant les forces d’acteurs locaux,
+                                nationaux et internationaux, nous créons des alliances stratégiques qui maximisent
+                                l’impact de nos initiatives. Nous croyons fermement que c’est en unissant nos efforts
+                                que nous pourrons relever les défis et bâtir un avenir inclusif et pérenne.
+                            </span>
+                        </li>
+                        <li>
+                            <strong>Innovation sociale :</strong>
+                            <span data-translate="vision.list.innovation">
+                                L’innovation est au cœur de la mission d’AMES. En intégrant des solutions créatives et
+                                adaptées aux réalités des populations, nous relevons efficacement les défis sociaux et
+                                environnementaux. Cette approche innovante garantit des réponses pertinentes et renforce
+                                l’impact de nos actions sur le terrain.
+                            </span>
+                        </li>
+                        <li>
+                            <strong>Responsabilité environnementale :</strong>
+                            <span data-translate="vision.list.environment">
+                                AMES s’efforce de préserver l’environnement à travers des pratiques respectueuses des
+                                ressources naturelles. En adoptant des approches durables, nous protégeons les
+                                écosystèmes et contribuons à assurer un avenir viable pour les générations à venir.
+                            </span>
+                        </li>
+                        <li>
+                            <strong>Justice sociale :</strong>
+                            <span data-translate="vision.list.justice">
+                                AMES place l’équité au centre de ses préoccupations. Nous luttons contre les inégalités
+                                et œuvrons pour que chaque individu, sans distinction, ait accès à ses droits
+                                fondamentaux et à des opportunités équitables.
+                            </span>
+                        </li>
+                        <li>
+                            <strong>Empowerment communautaire :</strong>
+                            <span data-translate="vision.list.empowerment">
+                                AMES s’engage à renforcer les capacités des populations locales, leur permettant ainsi
+                                de devenir des acteurs de leur propre développement. En favorisant leur autonomie, nous
+                                garantissons des résultats durables tout en mettant en valeur le potentiel et les
+                                ressources de ces communautés.
+                            </span>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="activities" class="activities">
+        <div class="container">
+            <h2 data-translate="activities.title" data-aos="fade-up">Nos Activités</h2>
+            <div class="activities-grid">
+                <div class="activity-card" data-aos="fade-up">
+                    <div class="activity-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 data-translate="activities.education.title">Éducation</h3>
+                    <p data-translate="activities.education.description">Programmes éducatifs pour les jeunes
+                        défavorisés</p>
+                </div>
+                <div class="activity-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="activity-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3 data-translate="activities.support.title">Soutien Social</h3>
+                    <p data-translate="activities.support.description">Aide aux familles en difficulté</p>
+                </div>
+                <div class="activity-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="activity-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 data-translate="activities.environment.title">Environnement</h3>
+                    <p data-translate="activities.environment.description">Projets de développement durable</p>
+                </div>
+                <div class="activity-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="activity-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3 data-translate="activities.justice.title">Droits et Justice</h3>
+                    <p data-translate="activities.justice.description">Droits Humains et Justice sociale</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="activities" class="activities">
+        <div class="container">
+            <h2 data-translate="activities.title2" data-aos="fade-up">Aide aux enfants défavorisés</h2>
+            <div class="activities-grid">
+                <div class="activity-card" data-aos="fade-up">
+                    <div class="activity-icon2">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-09-23-26-20%202.jpg"
+                            alt="Enfants défavorisés">
+                    </div>
+
+                </div>
+                <div class="activity-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="activity-icon2">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-09-23-26-20.jpg"
+                            alt="Enfants défavorisés">
+                    </div>
+                </div>
+                <div class="activity-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="activity-icon2">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-11-22-41-51.jpg"
+                            alt="Enfants défavorisés">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <h2 data-translate="team.title" data-aos="fade-up">Notre Équipe</h2>
+            <div class="team-grid">
+                <div class="team-member" data-aos="fade-up">
+                    <div class="member-img">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/IMG-20250107-WA0008.jpg"
+                            alt="Team Member">
+                    </div>
+                    <h3>Mohamed Iknan Ag ATTEYOUB</h3>
+                    <p data-translate="team.president">Président</p>
+                </div>
+                <div class="team-member" data-aos="fade-up">
+                    <div class="member-img">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-09-19-01-20.jpg"
+                            alt="Team Member">
+                    </div>
+                    <h3>Aboubacrine AG ASSADECK</h3>
+                    <p data-translate="team.VicePresident">Vice-Président</p>
+                </div>
+                <div class="team-member" data-aos="fade-up">
+                    <div class="member-img">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-09-19-05-03.jpg"
+                            alt="Team Member">
+                    </div>
+                    <h3>Kadidia Ousmane Haidara</h3>
+                    <p data-translate="team.SecGen">Secrétaire générale</p>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-img">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-06-11-15-50.jpg"
+                            alt="Team Member">
+                    </div>
+                    <h3>Abdoulahi AG Fauna</h3>
+                    <p data-translate="team.AdjSecGen">Adjoint secrétaire général</p>
+                </div>
+                <div class="team-member" data-aos="fade-up">
+                    <div class="member-img">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-09-19-11-52.jpg"
+                            alt="Team Member">
+                    </div>
+                    <h3>Mariama TOURE</h3>
+                    <p data-translate="team.TreGen">Trésorière Générale</p>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-img">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-06-11-22-54.jpg"
+                            alt="Team Member">
+                    </div>
+                    <h3>Korotoumou Ousmane Diallo</h3>
+                    <p data-translate="team.adminSec">Secrétaire administrative</p>
+                    <div class="team-member" data-aos="fade-up">
+                        <div class="member-img">
+                            <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-08-16-45-44.jpg"
+                                alt="Team Member">
+                        </div>
+                        <h3>Aly AG ABZAW</h3>
+                        <p data-translate="team.SecAdm">Adjoint Secrétaire administratif</p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-img">
+                            <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-06-11-17-32.jpg"
+                                alt="Team Member">
+                        </div>
+                        <h3>Ibrahim Haidara</h3>
+                        <p data-translate="team.partEtGouv">Chargé des relations avec les partenaires et gouvernement
+                        </p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-img">
+                            <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-06-11-23-40.jpg"
+                                alt="Team Member">
+                        </div>
+                        <h3>Fadimata Azahra walet Rhissa</h3>
+                        <p data-translate="team.AdjPartGouv">Adjointe chargée des relations avec les partenaires et le
+                            gouvernement</p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up">
+                        <div class="member-img">
+                            <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-09-19-14-39.jpg"
+                                alt="Team Member">
+                        </div>
+                        <h3>Allaye Ag MAHDI</h3>
+                        <p data-translate="team.ChaPro">Chargé de projets</p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-img">
+                            <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-06-11-18-31.jpg"
+                                alt="Team Member">
+                        </div>
+                        <h3>Hadjarata Maïga</h3>
+                        <p data-translate="team.Edu">Chargé de l'éducation</p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-img">
+                            <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-06-11-16-35.jpg"
+                                alt="Team Member">
+                        </div>
+                        <h3>Azahra walet Almonsor</h3>
+                        <p data-translate="team.AdjEdu">Adjoint de la chargé de l'éducation</p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-img">
+                            <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-06-11-17-59.jpg"
+                                alt="Team Member">
+                        </div>
+                        <h3>Ramatou Elhabibou Touré</h3>
+                        <p data-translate="team.AdjSan">Adjoint aux activités sanitaires</p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-img">
+                            <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-06-11-15-32.jpg"
+                                alt="Team Member">
+                        </div>
+                        <h3>Ehya AG Aly</h3>
+                        <p data-translate="team.SuiEva">Chargé de suivi évaluation</p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up">
+                        <div class="member-img">
+                            <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-09-19-22-02.jpg"
+                                alt="Team Member">
+                        </div>
+                        <h3>Abdoussamad Ag Alhousseyni</h3>
+                        <p data-translate="team.AdjSuiEva">Adjoint Chargé de Suivi Evaluation</p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up">
+                        <div class="member-img">
+                            <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-09-19-20-50.jpg"
+                                alt="Team Member">
+                        </div>
+                        <h3>Zakaria Nouhou</h3>
+                        <p data-translate="team.ChaCom">Chargé de la Communication</p>
+                    </div>
+
+
+
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-img">
+                            <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/channels4_profile.jpg"
+                                alt="Team Member">
+                        </div>
+                        <h3>ABDOUL JALIL AG SALAH</h3>
+                        <p data-translate="team.informatique">Responsable de l'informatique et Numérique</p>
+                    </div>
+
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-img">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-06-11-19-47.jpg"
+                            alt="Team Member">
+                    </div>
+                    <h3>Oumalhassane Walet Almonsor</h3>
+                    <p data-translate="team.MobCom">Chargée de la mobilisation communautaire</p>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-img">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-06-11-21-50.jpg"
+                            alt="Team Member">
+                    </div>
+                    <h3>Zeinoudine AG ATTEYOUB</h3>
+                    <p data-translate="team.AdjMobCom">Adjoint chargé de la mobilisation communautaire</p>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-img">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-06-11-14-56.jpg"
+                            alt="Team Member">
+                    </div>
+                    <h3>Mohamed Almoustapha AG Talhata</h3>
+                    <p data-translate="team.Org">Chargé de l'organisation</p>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-img">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/PHOTO-2025-02-06-11-22-49.jpg"
+                            alt="Team Member">
+                    </div>
+                    <h3>Mohamed Elmoctar AG Mohammedine</h3>
+                    <p data-translate="team.AdjOrg">Adjoint chargé de l'organisation</p>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="partners" class="partners">
+        <div class="container">
+            <h2 data-translate="partners.title" data-aos="fade-up">Nos Partenaires</h2>
+            <div class="partners-grid">
+                <a href="https://fmoney.online" class="partner-card" data-aos="fade-up">
+                    <div class="partner-logo">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/Logo%205.png" alt="f-Money">
+                    </div>
+                    <h3>f-Money</h3>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.asciostudio.hogon_market"
+                    class="partner-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="partner-logo">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/HOGONMarket.png"
+                            alt="Hogon-Market">
+                    </div>
+                    <h3>Hogon-Market</h3>
+                </a>
+                <a href="https://apps.apple.com/dz/app/ascio-ai/id6737691709" class="partner-card" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div class="partner-logo">
+                        <img src="https://github.com/Abdouljalil/Equipe-AMES/raw/main/Ascio-AI_Logo.png" alt="Ascio-AI">
+                    </div>
+                    <h3>Ascio-AI</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AMES</h3>
+                    <p data-translate="footer.description">Association Maliennne pour l'Équitée social</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate="footer.contact">Contact</h3>
+                    <p>Email: <a href="mailto:contact@amesmali.com">contact@amesmali.com</a></p>
+                    <p>Tel: <a href="calto:+22373430881"></a> +223 73 43 08 81</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate="footer.social">Réseaux Sociaux</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61571797223257"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://whatsapp.com/channel/0029Vb0J8sWBA1f5afiJ7d0d"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/company/106120041/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AMES. <span data-translate="footer.rights">Tous droits réservés</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
